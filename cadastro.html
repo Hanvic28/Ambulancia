@@ -1,0 +1,44 @@
+<head>
+    <title>
+        Cadastrar
+    </title>
+</head>
+
+<body>
+    
+    <header>
+        <a href="index.html">
+            <img src="./material/dall-e-2.webp" />
+        </a>
+        <h1>Ambulância</h1>
+        <h2>Sistema de gestão de Ambulância</h2>
+    </header>
+    <nav>
+        <div name="lista">
+            <div>Nossos Acessos</div>
+            <a href="index.html">Home</a>
+            <a href="sobre.html">Sobre nós</a>
+            <a href="http://globo.com">globo</a>
+            <a href="cadastro.html">Cadastro</a>
+        </div>
+    </nav>
+    
+    <section>
+        <form action="http://localhost:32/cadastro" method="post">
+        <label for="nome"> Informe Usuario </label>
+        <input type="text" placeholder="Usuario" name = "nome"></input>
+        <br/>
+
+        <label for="senha"> Informe Senha </label>
+        <input type="password" placeholder="Senha" id="senha" name= "senha" required>
+        <br/>
+
+        <label for="rep_senha"> Repita Senha </label>
+        <input type="password" placeholder="Comfirme sua senha" id="Comfirme sua senha" name="rep_senha" required>
+        <br/>
+
+        <button type="submit"> Cadastro </button>
+
+        </form>
+    </section>
+</body>
