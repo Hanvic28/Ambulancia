@@ -1,0 +1,22 @@
+li {
+	text-decoration: none;
+}
+
+.nav {
+	color: black;
+	text-decoration: none;
+}
+
+.cabecario {
+	width: 100px;
+	height: 100px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+}
+
+.div#footer_back {
+	width: 100px;
+	height: 100px;
+	color: dimgrey;
+}
